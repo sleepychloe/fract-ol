@@ -33,7 +33,7 @@ SRCS = $(addprefix $(SRCS_DIR), $(addsuffix .c, $(FILES)))
 OBJS_DIR = ./
 OBJS = $(addprefix $(OBJS_DIR), $(addsuffix .o, $(FILES)))
 
-.c.o: $(SRCS) $(HEADER_DIR)$ fractol.h
+.c.o: $(SRCS) $(HEADER_DIR)
 	$(CC) $(CFLAGS) -c $< -o $@ -I$(HEADER_DIR)
 
 $(NAME): $(OBJS)
