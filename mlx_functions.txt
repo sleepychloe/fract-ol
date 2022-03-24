@@ -351,7 +351,8 @@ int	mlx_mouse_hook(void *win_ptr, int (*funct_ptr)(), void *param);
 	win_ptr	 : the window identifier.
 	funct_ptr: a pointer to the function you want to be called when an event occurs.
                    this assignment is specific to the window defiend by the "win_ptr".
-	param	 : the "param" address will be passed to the function everytime it is called.                   it is used to store the parameters it might need.
+	param	 : the "param" address will be passed to the function everytime it is called.
+		   it is used to store the parameters it might need.
 
 
 
@@ -366,7 +367,8 @@ int	mlx_expose_hook(void *win_ptr, int (*funct_ptr)(), void *param);
 	win_prt	 : the window identifier.
 	funct_ptr: a pointer to the function you want to be called when an event occurs.
                    this assignment is specific to the window defiend by the "win_ptr".
-	param	 : the "param" address will be passed to the function everytime it is called.                   it is used to store the parameters it might need.
+	param	 : the "param" address will be passed to the function everytime it is called.
+		   it is used to store the parameters it might need.
 
 
 
@@ -396,6 +398,7 @@ int	mlx_loop_hook(void *win_ptr, int (*funct_ptr)(), void *param);
 	win_ptr	 : the window identifier.
 	funct_ptr: a pointer to the function you want to be called when an event occurs.
                    this assignment is specific to the window defiend by the "win_ptr".
-	param	 : the "param" address will be passed to the function everytime it is called.                   it is used to store the parameters it might need.
+	param	 : the "param" address will be passed to the function everytime it is called.
+		   it is used to store the parameters it might need.
 
 
