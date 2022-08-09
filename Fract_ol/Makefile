@@ -6,7 +6,7 @@
 #    By: yhwang <yhwang@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/01 02:08:07 by yhwang            #+#    #+#              #
-#    Updated: 2022/07/17 20:03:18 by yhwang           ###   ########.fr        #
+#    Updated: 2022/08/09 03:45:16 by yhwang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ OBJS = $(addprefix $(SRCS_DIR)/, $(addsuffix .o, $(FILES)))
 all: $(NAME)
 
 $(NAME): $(MLX) $(OBJS)
-	$(CC) $^ -o $@ -I$(HEADER_DIR) -L$(MLX_DIR) -lmlx $(MLX_FLAGS)
+	$(CC) $(CFLAGS) $^ -o $@ -I$(INCS_DIR) -L$(MLX_DIR) -lmlx $(MLX_FLAGS)
 
 $(MLX):
 	make -C $(MLX_DIR)
