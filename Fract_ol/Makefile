@@ -6,7 +6,7 @@
 #    By: yhwang <yhwang@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/01 02:08:07 by yhwang            #+#    #+#              #
-#    Updated: 2022/08/09 03:45:16 by yhwang           ###   ########.fr        #
+#    Updated: 2022/11/16 22:25:41 by yhwang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
 MLX_DIR = ./mlx_linux
-MLX_FLAGS = -lX11 -lXext -lm -lz
+MLX_FLAGS = -lX11 -lXext -lm
 MLX = $(addprefix $(MLX_DIR)/, libmlx.a)
 
 FILES = fractol_utils \
