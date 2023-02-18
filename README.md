@@ -3,7 +3,7 @@
 Mandatory part + Bonus part(one more different fractal,\
 zoom with actual mouse position,color range shift)
 
-Tested on Linux and Mac
+Tested on Linux
 
 Success 115/100
 
