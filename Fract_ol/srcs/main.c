@@ -6,7 +6,7 @@
 /*   By: yhwang <yhwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/01 01:55:08 by yhwang            #+#    #+#             */
-/*   Updated: 2023/02/17 18:57:03 by yhwang           ###   ########.fr       */
+/*   Updated: 2023/04/11 00:53:30 by yhwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ void	ft_fractol(t_mlx *mlx, int check)
 {
 	if (mlx->fractol == 1 || mlx->fractol == 2 || mlx->fractol == 3)
 	{
-		show_guide();
 		if (mlx->fractol == 1)
 		{
 			if (check)
@@ -86,6 +85,7 @@ int	main(int argc, char **argv)
 		else if (!(ft_strncmp(argv[1], "Burning_ship", 12))
 			&& ft_strlen(argv[1]) == 12)
 			mlx.fractol = 3;
+		show_guide();
 		ft_fractol((void *)&mlx, 0);
 		available_list();
 	}
