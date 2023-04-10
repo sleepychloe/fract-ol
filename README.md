@@ -22,6 +22,9 @@ Success 115/100
   ./fractol Julia
   ./fractol Burning_ship
 ```
+
+## Keys
+
 ```
 ╔════════════════════════════════╗
 ║       for every fractal        ║
