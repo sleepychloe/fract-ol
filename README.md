@@ -1,12 +1,45 @@
 # fract-ol
 
-Mandatory part + Bonus part(one more different fractal,\
+Mandatory part + Bonus part(one more different fractal,
 zoom with actual mouse position,color range shift)
 
 Tested on Linux
 
 Success 115/100
 
+## Installation
+
+```bash
+  git clone https://github.com/sleepychloe/fract-ol.git
+  cd Fract_ol
+  make
+```
+
+## Usage
+
+```bash
+  ./fractol Mandelbrot
+  ./fractol Julia
+  ./fractol Burning_ship
+```
+```
+╔════════════════════════════════╗
+║       for every fractal        ║
+╠═════════════╦══════════════════╣
+║ SCROLL_UP   ║ zoom out         ║
+║ SCROLL_DOWN ║ zoom in          ║
+║ KEY_ESC     ║ exit             ║
+║ KEY_C       ║ change color     ║
+╠═════════════╩══════════════════╣
+║         for julia set          ║
+╠═════════════╦══════════════════╣
+║ KEY_1       ║ real num: -      ║
+║ KEY_2       ║ real num: +      ║
+║ KEY_Q       ║ imaginary num: - ║
+║ KEY_W       ║ imaginary num: + ║
+╚═════════════╩══════════════════╝
+```
+## Screenshots
 ## Mandelbrot set
 ![image](https://user-images.githubusercontent.com/78352910/219778092-44a9892f-3d6e-4160-8365-fcb87b33ed4b.png)
 ![image](https://user-images.githubusercontent.com/78352910/219778255-1b5b0e43-f8a5-4fea-a400-63b282202dbb.png)
