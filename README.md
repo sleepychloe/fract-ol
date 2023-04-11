@@ -66,5 +66,5 @@ Success 115/100
 
 ## Burning ship
 ![image](https://user-images.githubusercontent.com/78352910/219779545-4fe65973-5ec9-448e-bb35-dfa0502af787.png)
-![image](https://user-images.githubusercontent.com/78352910/219779595-6b01dc3a-b1d5-4107-b58c-f265978a7128.png)
+![image](https://user-images.githubusercontent.com/78352910/231275881-2cab7059-1b94-4a0c-ad17-a231f5814f84.png)
 ![image](https://user-images.githubusercontent.com/78352910/219779654-15f9418b-7798-440d-9f64-44c80c178faf.png)
