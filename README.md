@@ -15,7 +15,7 @@ Success 115/100
   make
 ```
 
-if comfile fails with message "can't find a suitable X11 include directory",
+if compile fails with message "can't find a suitable X11 include directory",
 install it via
 
 ```bash
