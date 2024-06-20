@@ -7,6 +7,17 @@ Tested on Linux
 
 Success 115/100
 
+## Project Description
+
+This project is focused on the development of a robust graphical application utilizing the MiniLibX library to render and explore two classic fractals: the Julia set and the Mandelbrot set.<br>
+This project seeks to combine mathematical theory with computer graphics to allow users to interactively explore fractal patterns, offering a deep dive into the visually complex world of fractals.<br>
+<br>
+Fractals are intricate structures that exhibit self-similarity across different scales, making them a fascinating subject for both mathematical research and visual computing.<br>
+<br>
+This project leverages the computational power of C programming and the graphical capabilities of MiniLibX to create an application that not only displays these fractals but also allows users to manipulate and explore them in real time.<br>
+<br>
+
+
 ## Installation
 
 ```bash
