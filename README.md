@@ -35,6 +35,7 @@ install it via
   sudo apt-get install gcc make xorg libxext-dev libbsd-dev
 ```
 
+<br>
 
 ## Usage
 
@@ -43,6 +44,8 @@ install it via
   ./fractol Julia
   ./fractol Burning_ship
 ```
+
+<br>
 
 ## Keys
 
@@ -63,13 +66,18 @@ install it via
 ║ KEY_W       ║ imaginary num: + ║
 ╚═════════════╩══════════════════╝
 ```
+
+<br>
+
 ## Screenshots
-## Mandelbrot set
+### Mandelbrot set
 ![image](https://user-images.githubusercontent.com/78352910/219778092-44a9892f-3d6e-4160-8365-fcb87b33ed4b.png)
 ![image](https://user-images.githubusercontent.com/78352910/219778255-1b5b0e43-f8a5-4fea-a400-63b282202dbb.png)
 ![image](https://user-images.githubusercontent.com/78352910/219778300-458f1ddb-7fb6-487f-84e4-7572c3e3e130.png)
 
-## Julia set
+<br>
+
+### Julia set
 ![image](https://user-images.githubusercontent.com/78352910/219778380-beea6694-9601-437b-96ae-7abadab80849.png)
 ![image](https://user-images.githubusercontent.com/78352910/219778430-5e480cd8-07c8-402f-99a5-dfad144c9c4b.png)
 ![image](https://user-images.githubusercontent.com/78352910/219778472-87d5a847-f650-4ebd-a344-b43b31b0518e.png)
@@ -85,7 +93,9 @@ install it via
 ![image](https://user-images.githubusercontent.com/78352910/219779361-a5262918-96cc-47f1-b416-f06541aff3b7.png)
 ![image](https://user-images.githubusercontent.com/78352910/219779395-e7df6b85-e8f6-4c1a-9fce-65fcb40d053b.png)
 
-## Burning ship
+<br>
+
+### Burning ship
 ![image](https://user-images.githubusercontent.com/78352910/219779545-4fe65973-5ec9-448e-bb35-dfa0502af787.png)
 ![image](https://user-images.githubusercontent.com/78352910/231275881-2cab7059-1b94-4a0c-ad17-a231f5814f84.png)
 ![image](https://user-images.githubusercontent.com/78352910/219779654-15f9418b-7798-440d-9f64-44c80c178faf.png)
