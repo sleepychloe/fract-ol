@@ -7,6 +7,8 @@ Tested on Linux
 
 Success 115/100
 
+<br>
+
 ## Project Description
 
 This project is focused on the development of a robust graphical application utilizing the MiniLibX library to render and explore two classic fractals: the Julia set and the Mandelbrot set.<br>
